@@ -19,7 +19,7 @@ print(
                         lambda x: (zip([ord(c) for c in x[0]], [ord(c) for c in x[1]]), x[2], x[3]),
                         filter(
                             lambda x: x[0] != x[1],
-                            [(a.strip(), b.strip(), a.strip(), b.strip()) for a in ids for b in ids]
+                            [(a.strip(), b.strip(), a.strip(), b.strip()) for a in ids for b in ids if a < b]
                         )
                     )
                 )
