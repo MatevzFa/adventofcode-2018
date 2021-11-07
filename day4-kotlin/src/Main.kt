@@ -7,9 +7,9 @@ fun main() {
 }
 
 fun partOne() {
-    throw NotImplementedError()
+    TODO()
 }
 
 fun partTwo() {
-    throw NotImplementedError()
+    TODO()
 }
